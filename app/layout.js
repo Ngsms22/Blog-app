@@ -12,15 +12,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Blog app",
-  description: "next js",
+  title: "My Blog - Web Development & Tech",
+  description: "A modern blog built with Next.js featuring articles about web development, React, and technology",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900`}
       >
         {children}
       </body>
