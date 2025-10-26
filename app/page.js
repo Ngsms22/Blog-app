@@ -47,7 +47,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-4 py-16">
-        <h1 className="text-5xl font-bold mb-4">Welcome to My Blog</h1>
+        <h1 className="text-5xl font-bold mb-4">This is a test blog</h1>
         <p className="text-xl text-gray-600 mb-8">
           Thoughts, stories and ideas about web development, design, and technology.
         </p>
